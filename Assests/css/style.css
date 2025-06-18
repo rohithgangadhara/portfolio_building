@@ -1,0 +1,93 @@
+header{
+    background-color:yellow
+    color: white;
+    padding: 10px ;
+    text-align: center;
+}
+section{
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+}
+body{
+    font-size: Arial, sans-serif;
+    background-color: grey;
+    margin:20px;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 10px;;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    border-bottom-left-radius: 10%;
+
+}
+th, td{
+   
+    border: 1px solid black;
+    text-align: center;
+    padding:8px;
+}
+th{
+    background-color:lightblue; 
+}
+h2{
+    color: darkblue;
+    text-align: left;
+}
+form-group{
+    margin-bottom: 15px;
+    text-align: justify;
+    text-decoration: line-through;
+}
+button{
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
+textarea{
+
+    box-sizing: border-box;
+    resize:vertical;
+    height:200px;
+
+}
+form{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+input[type="text"], input[type="email"], textarea, select {
+      width: 50%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+label{
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.links a {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  font-size: 16px;
+}
+.links a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
